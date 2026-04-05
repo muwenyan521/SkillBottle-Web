@@ -207,6 +207,7 @@ marimo/_lsp/
 __marimo__/
 
 # SkillBottle
-app/                      # 子项目目录（放你自己的项目）
-result/export-*/          # 导出的静态站点目录
-.skillbottle_admin.json  # 管理员密码哈希文件
+app/
+result/
+*.db
+.skillbottle_admin.json
